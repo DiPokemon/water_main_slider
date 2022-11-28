@@ -7,7 +7,9 @@
                     <div class="main_slide-title"><h2><?= $item->title ?></h2></div>
                     <div class="main_slide-subtitle"><?= $item->subtitle ?></div>
                     <div class="main_slide-description"><?= $item->description ?></div>
-                    <a class="main_slide-btn btn" href="<?= $item->link ?>">Подробнее</a>
+                    <?php if ($item->link):?>
+                        <a class="main_slide-btn btn" href="<?= $item->link ?>">Подробнее</a>
+                    <?php endif;?>
                 </div>
                 <div class="main_slide-right">
                     <?php echo do_shortcode('[contact-form-7 id="61" title="Контактная форма 1"]'); ?>

@@ -50,7 +50,7 @@ wp_enqueue_media();
 						<label for="subtitle">Подзаголовок</label>
 					</th>
 					<td>
-						<textarea name="data_subtitle" type="text" id="subtitle" value="<?= self::$model->subtitle ?>" class="regular-text"></textarea>
+						<textarea name="data_subtitle" type="text" id="subtitle" class="regular-text"><?= self::$model->subtitle ?></textarea>
 					</td>
 				</tr>
 				<tr>
@@ -58,7 +58,7 @@ wp_enqueue_media();
 						<label for="description">Описание</label>
 					</th>
 					<td>
-						<textarea name="data_description" type="text" id="description" value="<?= self::$model->description ?>" class="regular-text"></textarea>
+						<textarea name="data_description" type="text" id="description" class="regular-text"><?= self::$model->description ?></textarea>
 					</td>
 				</tr>
 				<tr>

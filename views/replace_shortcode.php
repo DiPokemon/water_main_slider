@@ -10,7 +10,7 @@
                     <a class="main_slide-btn btn" href="<?= $item->link ?>">Подробнее</a>
                 </div>
                 <div class="main_slide-right">
-                    <?php echo do_shortcode('[contact-form-7 id="54" title="Контактная форма 1"]'); ?>
+                    <?php echo do_shortcode('[contact-form-7 id="61" title="Контактная форма 1"]'); ?>
                 </div>
             </div>            
         </div>

@@ -4,7 +4,7 @@
         <div class="main_slide-item" style="background-image: url('<?= self::$model->get_image_attachment_filepath($item->image_attachment_id) ?>')">
             <div class="main_slide-body">
                 <div class="main_slide-left">
-                    <div class="main_slide-title"><h2><?= $item->title ?></h2></div>
+                    <div class="main_slide-title"><?= $item->title ?></div>
                     <div class="main_slide-subtitle"><?= $item->subtitle ?></div>
                     <div class="main_slide-description"><?= $item->description ?></div>
                     <?php if ($item->link):?>

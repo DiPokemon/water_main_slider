@@ -1,7 +1,7 @@
 <?php $length = 0 ?>
 	<div class="main_slider-wrapper">  
       <?php foreach ( self::$model->get_list() as $item ): $length++ ?>
-        <div class="main_slide-item" style="background-image: url('<?= self::$model->get_image_attachment_filepath($item->image_attachment_id) ?>')">
+        <div class="main_slide-item lazy-bg-img" style="background-image: url('<?= self::$model->get_image_attachment_filepath($item->image_attachment_id) ?>')">
             <div class="main_slide-body">
                 <div class="main_slide-left">
                     <div class="main_slide-title"><?= $item->title ?></div>
